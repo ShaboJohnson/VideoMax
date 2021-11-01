@@ -4,7 +4,8 @@ using System.Text;
 
 namespace VideoMax
 {
-    class Library
+    class Formato
     {
+        internal int
     }
 }
