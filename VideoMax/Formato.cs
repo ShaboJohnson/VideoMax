@@ -6,6 +6,26 @@ namespace VideoMax
 {
     class Formato
     {
-        internal int
+        public int FormatoId { get; }
+
+        public string Description { get;  }
+
+        public int Precio { get;  }
+        
+
+        public Formato (int id, int precio, string description)
+        {
+            FormatoId = id;
+            Precio = precio;
+            Description = description;
+
+
+
+
+        }
+
+
+
+
     }
 }
